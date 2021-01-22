@@ -1,0 +1,13 @@
+.main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+	.row {
+		display: flex;
+		flex-direction: row;
+	}
+
+	h4 {
+		margin: 0.25em 0.5em 0.25em 0;
+	}
+}
